@@ -27,35 +27,35 @@ function Home() {
   return (
     <div className="w-[100%] h-[100%] font-serif pt-10">
     
-      <div className="w-[90%] font-bold h-screen flex justify-center  m-auto p-4  animate-slideUp  ">
+      <div className="lg:w-[90%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  animate-slideUp  ">
         
-        <div className="w-[60%] ">
+        <div className="lg:w-[60%] ">
           <img src={cc} alt="" className="" />
         </div>
-        <div className="w-[50%] animate-slideUp text-center ">
+        <div className="lg:w-[50%] animate-slideUp text-center ">
           <img src={logo} alt="" className="" />
-          <p className="text-5xl">
+          <p className="lg:text-5xl">
             Nurturing Nature,<br></br> Delivering Quality Worldwide
           </p>
         </div>
       </div>
 
-      <div className="h-screen w-[100%] justify-center items-center flex bg-white ">
+      <div className="lg:h-screen w-[100%] justify-center items-center flex bg-white ">
         <video
-          className="absolute w-[90%] h-[80%] rounded-2xl brightness-50"
+          className="absolute lg:w-[90%] lg:h-[80%] md:shrink-0 rounded-2xl brightness-50"
           autoPlay
           muted
           loop
         >
           <source src={bg2} type="video/mp4" />
         </video>
-        <div className="h-screen w-[90%] justify-center items-center flex relative text-white font-sans italic  font-semibold">
+        <div className="lg:h-screen lg:w-[90%] justify-center items-center flex relative text-white font-sans italic  font-semibold">
           <div className="backdrop-blur-sm">
-            <h1 className="text-6xl text-center m-4">
+            <h1 className="lg:text-6xl md:shrink-0 text-center m-4">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
-            <p className="text-xl text-center">
+            <p className="lg:text-xl md:shrink-0 text-center">
               Premium Traders of Coriander Seeds - Castor Seeds - Castor Oil -
               Cashew Kernels - Grams
             </p>
@@ -94,27 +94,27 @@ function Home() {
             dynamicBullets: false,
           }}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-          className="h-[35rem] text-xl mx-auto w-[100%] flex justify-center"
+          className="lg:h-[35rem] text-xl mx-auto w-[100%] flex justify-center"
         >
-          <SwiperSlide className=" w-auto p-4 text-center items-center m-4 bg-transperant">
-            <img src={b} alt="" className="h-80  mx-auto" />
-            <p className="text-4xl font-bold mt-10">Cashew Kernels</p>
+          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
+            <img src={b} alt="" className="lg:h-80  mx-auto lg:w-[50vh]" />
+            <p className="lg:text-4xl font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
-            <img src={c} alt="" className="h-[40vh] w-[50vh]  mx-auto" />
-            <p className="text-4xl font-bold mt-10">Castor Seeds</p>
+            <img src={c} alt="" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
+            <p className="lg:text-4xl font-bold mt-10">Castor Seeds</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
-            <img src={d} alt="" className="h-[40vh] w-[50vh] mx-auto" />
-            <p className="text-4xl font-bold mt-10">Castor Seeds Oil</p>
+            <img src={d} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="lg:text-4xl font-bold mt-10">Castor Seeds Oil</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
-            <img src={e} alt="" className="h-[40vh] w-[50vh] mx-auto" />
-            <p className="text-4xl font-bold mt-10 ">Legumes</p>
+            <img src={e} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="lg:text-4xl font-bold mt-10 ">Legumes</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
-            <img src={a} alt="" className="h-[40vh] w-[50vh] mx-auto" />
-            <p className="text-4xl font-bold mt-10">Guar Seeds</p>
+            <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="lg:text-4xl font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
         </Swiper>
       </div>
@@ -134,7 +134,7 @@ function Home() {
       </div>
       <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10">
         <div className=" lg:w-[30%]  ">
-          <div className="w-[50vh] h-[25vh] p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
+          <div className="w-[50vh] lg:h-[25vh] p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
             <ReactStars count={5} value={5} size={24} activeColor="black" />
             <h1 className="lg:text-2xl font-bold mt-2">“Excellent Service”</h1>
 
