@@ -25,7 +25,7 @@ function Home() {
 
 
   return (
-    <div className="w-[100%] h-[100%] font-serif pt-10">
+    <div className="w-[100%] h-[100%]  pt-10">
     
       <div className="lg:w-[90%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  animate-slideUp  ">
         
@@ -40,29 +40,29 @@ function Home() {
         </div>
       </div>
 
-      <div className="lg:h-screen w-[100%] justify-center items-center flex bg-white ">
+      <div className="lg:h-screen w-full flex justify-center items-center bg-white ">
         <video
-          className="absolute lg:w-[90%] lg:h-[80%] md:shrink-0 rounded-2xl brightness-50"
+          className="absolute w-full lg:w-4/5 h-full lg:h-4/5 rounded-2xl brightness-50"
           autoPlay
           muted
           loop
         >
           <source src={bg2} type="video/mp4" />
         </video>
-        <div className="lg:h-screen lg:w-[90%] justify-center items-center flex relative text-white font-sans italic  font-semibold">
-          <div className="backdrop-blur-sm">
-            <h1 className="lg:text-6xl md:shrink-0 text-center m-4">
+        <div className="relative flex flex-col justify-center items-center text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
+          <div className="backdrop-blur-sm p-4 lg:p-8 text-center">
+            <h1 className="text-3xl lg:text-6xl xl:text-5xl mb-4">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
-            <p className="lg:text-xl md:shrink-0 text-center">
+            <p className="text-lg lg:text-2xl xl:text-lg mb-8">
               Premium Traders of Coriander Seeds - Castor Seeds - Castor Oil -
               Cashew Kernels - Grams
             </p>
-            <div className="mx-auto w-[20%] mt-8">
+            <div className="w-48 mx-auto mt-8">
               <Link
                 to="/about"
-                class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
+                class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-black bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
               >
                 About Us
               </Link>
@@ -97,7 +97,7 @@ function Home() {
           className="lg:h-[35rem] text-xl mx-auto w-[100%] flex justify-center"
         >
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
-            <img src={b} alt="" className="lg:h-80  mx-auto lg:w-[50vh]" />
+            <img src={b} alt="" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
             <p className="lg:text-4xl font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
