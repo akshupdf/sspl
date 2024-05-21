@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -20,19 +20,26 @@ import logo from "../images/logo2.png";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+const [data,setData] = useState([0])
 
   return (
     <div className="w-[100%] h-[100%]  pt-10">
     
-      <div className="lg:w-[90%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  animate-slideUp  ">
+      <div className="lg:w-[90%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4 " >
         
-        <div className="lg:w-[60%] ">
+        <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000">
           <img src={cc} alt="" className="" />
         </div>
-        <div className="lg:w-[50%] animate-slideUp text-center ">
+        <div className="lg:w-[50%]  text-center " data-aos="fade-left" data-aos-duration="3000">
           <img src={logo} alt="" className="" />
           <p className="lg:text-5xl">
             Nurturing Nature,<br></br> Delivering Quality Worldwide
@@ -71,8 +78,8 @@ function Home() {
         </div>
       </div>
 
-      <div className=" pt-10 w-[100%] text-center items-center ">
-        <h1 className="m-auto  p-6 text-4xl ">Our Products</h1>
+      <div className=" pt-10 w-[100%] text-center items-center " data-aos="slide-up" data-aos-duration="3000">
+        <h1 className="m-auto  p-6 text-5xl font-bold">Our Products</h1>
         <Swiper
           grabCursor={true}
           centeredSlides={true}
@@ -132,7 +139,7 @@ function Home() {
           </span>
         </Link>
       </div>
-      <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10">
+      <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10 pt-10 items-center" data-aos="zoom-in" data-aos-duration="3000">
         <div className=" lg:w-[30%]  ">
           <div className="w-[50vh] lg:h-[25vh] p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
             <ReactStars count={5} value={5} size={24} activeColor="black" />

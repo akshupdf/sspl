@@ -10,9 +10,11 @@ module.exports = {
         },
       },
       animation: {
-        slideUp: 'slideUp 1s ease-out forwards',
+        slideUp: 'slideUp 2s ease-out forwards',
       },
     },
+    variants: {},
+    plugins: [],
   },theme: {
     extend: {},
     fontFamily: {
