@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react'
+import React, {useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -11,11 +11,15 @@ import {
   Autoplay,
 } from "swiper/modules";
 import cc from "../images/pp.png";
-import a from "../images/1.png";
+import a from "../images/2.jpg";
 import b from "../images/2.png";
 import c from "../images/3.png";
 import d from "../images/4.png";
 import e from "../images/5.png";
+import f from "../images/BB.jpg";
+import g from "../images/NB.jpg";
+import h from "../images/DD.jpg";
+import i from "../images/AA.jpg";
 import logo from "../images/logo2.png";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
@@ -29,17 +33,17 @@ function Home() {
     AOS.init();
   }, [])
 
-const [data,setData] = useState([0])
+
 
   return (
     <div className="w-[100%] h-[100%]  pt-10">
     
-      <div className="lg:w-[90%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4 " >
+      <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  " >
         
-        <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000">
+        <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
           <img src={cc} alt="" className="" />
         </div>
-        <div className="lg:w-[50%]  text-center " data-aos="fade-left" data-aos-duration="3000">
+        <div className="lg:w-[50%] mt-20 text-center " data-aos="fade-left" data-aos-duration="3000">
           <img src={logo} alt="" className="" />
           <p className="lg:text-5xl">
             Nurturing Nature,<br></br> Delivering Quality Worldwide
@@ -56,15 +60,15 @@ const [data,setData] = useState([0])
         >
           <source src={bg2} type="video/mp4" />
         </video>
-        <div className="relative flex flex-col justify-center items-center text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
-          <div className="backdrop-blur-sm p-4 lg:p-8 text-center">
-            <h1 className="text-3xl lg:text-6xl xl:text-5xl mb-4">
+        <div className="relative flex flex-col justify-center items-center sm:h-[10rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
+          <div className="backdrop-blur-sm sm:p-0 p-4 lg:p-8 text-center">
+            <h1 className="text-3xl sm:text-xl lg:text-6xl xl:text-5xl mb-4">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
             <p className="text-lg lg:text-2xl xl:text-lg mb-8">
-              Premium Traders of Coriander Seeds - Castor Seeds - Castor Oil -
-              Cashew Kernels - Grams
+              Premium Traders of - Castor Seeds - Castor Seeds Oil -
+              Cashew Kernels - Grams - Gaur Seeds
             </p>
             <div className="w-48 mx-auto mt-8">
               <Link
@@ -125,7 +129,8 @@ const [data,setData] = useState([0])
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="w-[100%] mx-auto items-center justify-center flex">
+
+      <div className="w-[100%] mx-auto items-center justify-center flex mb-10">
         <Link
           to="/products"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-xl group"
@@ -138,6 +143,16 @@ const [data,setData] = useState([0])
             Know More
           </span>
         </Link>
+      </div>
+
+      <div className='bg-[url(https://jobs.washingtonpost.com/getasset/ad32a346-0c4d-42aa-88df-532aaf8b5d52/)] justify-center pt-10 items-center text-center h-80 bg-cover bg-fixed bg-no-repeat'>
+         {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
+          <div className='flex w-[100%] justify-center overflow-auto'>
+          <img src={f} alt="" className="m-4" />
+          <img src={g} alt="" className="m-4" />
+          <img src={h} alt="" className="m-4" />
+          <img src={i} alt="" className="m-4" />
+          </div>
       </div>
       <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10 pt-10 items-center" data-aos="zoom-in" data-aos-duration="3000">
         <div className=" lg:w-[30%]  ">
@@ -182,7 +197,7 @@ const [data,setData] = useState([0])
           </div>
         </div>
       </div>
-      <div className="sticky bottom-0  w-[100%] flex justify-end animate-bounce p-4">
+      <div className="sticky bottom-0  w-[100%] flex justify-end animate-bounce p-4 ">
         <Link to="https://wa.me/message/TUXSWBBOYPJFP1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
