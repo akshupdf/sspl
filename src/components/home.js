@@ -53,7 +53,7 @@ function Home() {
 
       <div className="lg:h-screen w-full flex justify-center items-center bg-white ">
         <video
-          className="absolute w-full lg:w-4/5 h-full lg:h-4/5 rounded-2xl brightness-50"
+          className="absolute w-full lg:w-4/5 h-full lg:h-4/5 rounded-2xl brightness-50 object-contain"
           autoPlay
           muted
           loop
