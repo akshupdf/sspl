@@ -10,8 +10,8 @@ function Product() {
   return (
     <div className="h-auto bg-gray-100 w-[100%]">
     <h1 className='w-[100%] text-center  text-4xl p-4'> PRODUCTS</h1>
-    <div className="max-w-7xl mx-auto   flex flex-col justify-center">
-      <div className="w-full flex  justify-center m-4 shadow-xl">
+    <div className="max-w-7xl mx-auto   flex flex-col justify-center ">
+      <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={a} alt="Guar Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-8" />
         <div className='m-4'>
         <h2 className="text-2xl font-bold mb-2">Guar Seeds</h2>
@@ -23,7 +23,7 @@ function Product() {
        
       </div>
 
-      <div className="w-full flex  justify-center m-4 shadow-xl">
+      <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={b} alt="Cashew Kernels" className=" 2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-10" />
         <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Cashew Kernels</h2>
@@ -34,7 +34,7 @@ function Product() {
         </div>
       </div>
 
-      <div className="w-full flex  justify-center m-4 shadow-xl">
+      <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={c} alt="Castor Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover  p-10 " />
          <div className='m-4 flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Castor Seeds</h2>
@@ -45,7 +45,7 @@ function Product() {
         </div>
       </div>
 
-      <div className="w-full flex  justify-center m-4 shadow-xl">
+      <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={d} alt="Castor Seeds Oil" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
           <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Castor Seeds Oil</h2>
@@ -56,7 +56,7 @@ function Product() {
         </div>
       </div>
 
-      <div className="w-full flex  justify-center m-4 shadow-xl">
+      <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={e} alt="Legumes" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
         <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Legumes</h2>
