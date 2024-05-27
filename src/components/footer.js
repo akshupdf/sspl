@@ -4,14 +4,15 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='w-[100%] h-auto lg:flex border border-black bottom-0   justify-center mt-10 text-xl bg-[#003662] text-gray-300  font-serif'>
-   <div className=' lg:w-[30%] pt-10'>
-    <div className=' mx-auto rounded-xl   cursor-pointer '>
-    <img src={logo}  alt="" className='w-80 h-40' />
+    <div>
+    <div className='w-[100%] h-auto lg:flex border border-black bottom-0 font-weight-800  justify-center mt-10 text-xl bg-[#003662] text-gray-300  font-serif'>
+   <div className=' lg:w-[30%] '>
+    <div className=' mx-auto rounded-xl pt-2   cursor-pointer '>
+    <img src={logo}  alt="" className='w-80 h-38' />
   
     <p>94, 9th floor, Maker Chamber III, Nariman Point, Mumbai, Maharashtra :- 400021</p>
-    <h1 className='font-bold'>Hours :-</h1>
-    <p>Monday — Saturday :- 9am-5pm</p>
+    <h1 className='font-bold'>Hours :-  Monday — Saturday :- 9am-5pm</h1>
+    
     
    
     </div>
@@ -26,6 +27,13 @@ function Footer() {
       <li className='hover:underline'><Link to="/products">Products</Link></li>
       <li className='hover:underline'><Link to="/contact">Contact Us</Link></li>
     </ul>
+    
+   
+    </div>
+    
+    </div>
+    <div className=' lg:w-[30%]  '>
+
     <div className='flex mt-20 '>
     <div >
     <h1 className='font-bold'>Contact :-</h1>
@@ -40,29 +48,10 @@ function Footer() {
 </svg>
     </div>
     </div>
-   
-    </div>
     
     </div>
-    <div className=' lg:w-[30%]  '>
-
-    <div className=' mx-auto mt-4 rounded-xl   cursor-pointer text-center'>
-    <form >
-     <label>Name :- </label>
-     <input type="text" name="user_name" className='m-2 border ml-6 border-black rounded-xl w-80 text-black' /> <br></br>
-     <label>Email :-</label>
-     <input type="email" name="user_email"  className='m-2 border ml-8 border-black rounded-xl w-80 text-black' /><br></br>
-     <label>Message :-</label>
-     <textarea name="message" className='m-2 border ml-8 h-40 border-black rounded-xl w-80 text-black'/><br></br>
-     <input type="submit" value="Send" className='m-2 p-2 border border-gray-300 rounded-xl mx-auto '/>
-   </form>
-   
     </div>
-    
-    
-    
-    </div>
-    
+    <div className='w-[100%] text-center'>Copyright © 2024 Satyanarayan Sekhsaria Pvt Ltd </div>
     </div>
   )
 }

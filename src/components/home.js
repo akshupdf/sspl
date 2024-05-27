@@ -10,7 +10,7 @@ import {
   Navigation,
   Autoplay,
 } from "swiper/modules";
-import cc from "../images/pp.png";
+import cc from "../images/bg.gif";
 import a from "../images/2.jpg";
 import b from "../images/2.png";
 import c from "../images/3.png";
@@ -40,8 +40,8 @@ function Home() {
     
       <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  " >
         
-        <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
-          <img src={cc} alt="" className="" />
+        <div className="lg:w-[60%] mt-10 " data-aos="fade-right" data-aos-duration="3000"  >
+          <img src={cc} alt="" className="w-[100vh]" />
         </div>
         <div className="lg:w-[50%] mt-20 text-center " data-aos="fade-left" data-aos-duration="3000">
           <img src={logo} alt="" className="" />
@@ -51,7 +51,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="lg:h-screen w-full flex justify-center items-center bg-white ">
+      <div className="lg:h-screen  w-full flex justify-center  items-center bg-white ">
         <video
           className="absolute w-full lg:w-4/5 h-full lg:h-4/5 rounded-2xl brightness-50 object-contain"
           autoPlay
@@ -60,7 +60,7 @@ function Home() {
         >
           <source src={bg2} type="video/mp4" />
         </video>
-        <div className="relative flex flex-col justify-center items-center sm:h-[10rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
+        <div className="relative flex flex-col justify-center items-center sm:h-[14rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
           <div className="backdrop-blur-sm sm:p-0 p-4 lg:p-8 text-center">
             <h1 className="text-3xl sm:text-xl lg:text-6xl xl:text-5xl mb-4">
               {" "}
