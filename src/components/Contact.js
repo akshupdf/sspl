@@ -19,7 +19,7 @@ const handleChange = (e) => {
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const response = await fetch('/feedback', {
+        const response = await fetch('https://feedback-backend-3ocf.onrender.com/feedback', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -30,6 +30,12 @@ const handleSubmit = async (e) => {
         const data = await response.json();
         if (data.success) {
             alert('Feedback sent successfully');
+
+            setFormData({
+                name: '',
+                email: '',
+                message: ''
+            });
         } else {
             alert('Error sending feedback');
         }
