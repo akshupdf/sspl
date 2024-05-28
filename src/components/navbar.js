@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className='lg:flex backdrop-blur-2xl bg w-[100%] font-serif bg-[#003662] text-white '>
     <div className='flex justify-between items-center w-full lg:w-[50%] pt-2'>
-      <img src={logo} alt="Logo" className='w-40 h-15' />
+    <Link to="/" > <img src={logo} alt="Logo" className='w-40 h-15' /></Link>
       <div className='lg:hidden' onClick={toggleMenu}>
         {isOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

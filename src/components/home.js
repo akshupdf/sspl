@@ -62,11 +62,11 @@ function Home() {
         </video>
         <div className="relative flex flex-col justify-center items-center sm:h-[14rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
           <div className="backdrop-blur-sm sm:p-0 p-4 lg:p-8 text-center">
-            <h1 className="text-3xl sm:text-xl lg:text-6xl xl:text-5xl mb-4">
+            <h1 className="text-3xl sm:text-sm lg:text-6xl xl:text-5xl mb-4">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
-            <p className="text-lg lg:text-2xl xl:text-lg mb-8">
+            <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8">
               Premium Traders of - Castor Seeds - Castor Seeds Oil -
               Cashew Kernels - Grams - Gaur Seeds
             </p>
@@ -104,28 +104,38 @@ function Home() {
             clickable: true,
             dynamicBullets: false,
           }}
+          breakpoints={{
+    640: {
+      slidesPerView: 2,  
+    },
+    768: {
+      slidesPerView: 3, 
+    },
+    1024: {
+      slidesPerView: 4,  
+    },}}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="lg:h-[35rem] text-xl mx-auto w-[100%] flex justify-center"
         >
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
             <img src={b} alt="" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
-            <p className="lg:text-4xl font-bold mt-10">Cashew Kernels</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
             <img src={c} alt="" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
-            <p className="lg:text-4xl font-bold mt-10">Castor Seeds</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
             <img src={d} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="lg:text-4xl font-bold mt-10">Castor Seeds Oil</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds Oil</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
             <img src={e} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="lg:text-4xl font-bold mt-10 ">Legumes</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Legumes</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
             <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="lg:text-4xl font-bold mt-10">Guar Seeds</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
         </Swiper>
       </div>

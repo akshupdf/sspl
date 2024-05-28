@@ -20,11 +20,11 @@ function About() {
     <div className=' 2xl:h-screen xl:h-[112vh] bg-cover w-[100%] bg-no-repeat p-4 pt-0  h-screen sm:overflow-auto'   data-aos="fade-in" data-aos-duration="3000"   >
 
     <h1 className='w-[100%] text-center  2xl:text-6xl backdrop-blur-sm pt-2 sm:text-4xl '> ABOUT US</h1>
-    <div className='flex'>
-    <div className='w-[50%]  text-center '>
+    <div className='flex 2xl:flex-row xl:flex-row sm:flex-col'>
+    <div className='w-[50%] sm:w-[100%] text-center '>
     <img src={bg} alt="" className='p-8'/> 
     </div>
-    <div className='w-[50%] sm:text-sm xl:text-xl 2xl:text-xl p-4 backdrop-blur-sm text-left'>
+    <div className='w-[50%] sm:w-[100%] sm:text-sm xl:text-xl 2xl:text-xl p-4 backdrop-blur-sm text-left'>
    
     <p className='indent-8'> <span className='font-bold'>SSPL</span> is focused on trading and supplying of a wide range of agricultural commodities like Castor Seed, Guar Seed, Castor Oil (FSG
 Grade), Gaur Gum (Guar Split), Chana both in India and Internationally.
