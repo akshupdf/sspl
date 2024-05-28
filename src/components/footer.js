@@ -37,7 +37,7 @@ function Footer() {
     <div className='flex mt-20 sm:pl-4  xl:pl-0 2xl:pl-0'>
     <div >
     <h1 className='font-bold'>Contact :-</h1>
-    <p>022-1234567</p>
+    <p>022-40570360</p>
     <p>info@sspl.co</p>
     </div>
     <div className='flex cursor-pointer m-10 '>

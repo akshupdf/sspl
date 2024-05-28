@@ -166,7 +166,7 @@ function Home() {
       </div>
       <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10 pt-10 items-center" data-aos="zoom-in" data-aos-duration="3000">
         <div className=" lg:w-[30%]  ">
-          <div className="w-[50vh] lg:h-[25vh] p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
+          <div className="w-[50vh]  p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
             <ReactStars count={5} value={5} size={24} activeColor="black" />
             <h1 className="lg:text-2xl font-bold mt-2">“Excellent Service”</h1>
 
@@ -208,7 +208,7 @@ function Home() {
         </div>
       </div>
       <div className="sticky bottom-0  w-[100%] flex justify-end animate-bounce p-4 ">
-        <Link to="https://wa.me/message/TUXSWBBOYPJFP1">
+        <Link to="https://wa.link/u3mfnm" target="_blank" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
