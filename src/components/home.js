@@ -10,7 +10,8 @@ import {
   Navigation,
   Autoplay,
 } from "swiper/modules";
-import cc from "../images/bg.gif";
+import rib from "../images/rib2.png";
+import cc from "../images/pp.png";
 import a from "../images/2.jpg";
 import b from "../images/2.png";
 import c from "../images/3.png";
@@ -20,7 +21,7 @@ import f from "../images/BB.jpg";
 import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
-import logo from "../images/logo2.png";
+import logo from "../images/logo3.png";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
@@ -36,19 +37,21 @@ function Home() {
 
 
   return (
-    <div className="w-[100%] h-[100%]  pt-10">
+    <div className="w-[100%] h-[100%]  ">
     
-      <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  m-auto p-4  " >
-        
-        <div className="lg:w-[60%] mt-10 " data-aos="fade-right" data-aos-duration="3000"  >
-          <img src={cc} alt="" className="w-[100vh]" />
-        </div>
+      <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  "  >
+        {/* <div className='w-full h-full absolute bg-[#000000cc]'></div> */}
         <div className="lg:w-[50%] mt-20 text-center " data-aos="fade-left" data-aos-duration="3000">
-          <img src={logo} alt="" className="" />
-          <p className="lg:text-5xl">
+          <img src={logo} alt="" className="w-[70%] mx-auto" />
+          <p className="lg:text-5xl ">
             Nurturing Nature,<br></br> Delivering Quality Worldwide
           </p>
         </div>
+       
+        <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
+          <img src={cc} alt="" className="w-[120vh]" />
+        </div> 
+       
       </div>
 
       <div className="lg:h-screen  w-full flex justify-center  items-center bg-white ">
@@ -83,7 +86,7 @@ function Home() {
       </div>
 
       <div className=" pt-10 w-[100%] text-center items-center " data-aos="slide-up" data-aos-duration="3000">
-        <h1 className="m-auto  p-6 text-5xl font-bold">Our Products</h1>
+        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>OUR PRODUCTS</h1>
         <Swiper
           grabCursor={true}
           centeredSlides={true}
@@ -155,16 +158,19 @@ function Home() {
         </Link>
       </div>
 
-      <div className='bg-[url(https://jobs.washingtonpost.com/getasset/ad32a346-0c4d-42aa-88df-532aaf8b5d52/)] justify-center pt-10 items-center text-center h-80 bg-cover bg-fixed bg-no-repeat'>
+      <div className=' justify-center pt-10 items-center text-center h-[30rem] '>
+      <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
          {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
-          <div className='flex w-[100%] justify-center overflow-auto'>
+          <div className='flex w-[100%] lg:flex-row justify-center sm:flex-col lg:p-10 sm:pt-80 overflow-auto sm:h-60 lg:h-auto '>
           <img src={f} alt="" className="m-4" />
           <img src={g} alt="" className="m-4" />
           <img src={h} alt="" className="m-4" />
           <img src={i} alt="" className="m-4" />
           </div>
       </div>
-      <div className="w-[100%] lg:h-[50vh] lg:flex  text-black justify-center mt-10 pt-10 items-center" data-aos="zoom-in" data-aos-duration="3000">
+      <div className="w-[100%] lg:h-[50vh]  text-black " data-aos="zoom-in" data-aos-duration="3000">
+      <h1 className="m-auto  p-6 lg:text-5xl sm:text-2xl font-bold text-center bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>REVIEWS</h1>
+        <div className='lg:flex w-[100%] justify-center  items-center mt-10'>
         <div className=" lg:w-[30%]  ">
           <div className="w-[50vh]  p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">
             <ReactStars count={5} value={5} size={24} activeColor="black" />
@@ -205,6 +211,7 @@ function Home() {
               of the veg is outstanding.
             </p>
           </div>
+        </div>
         </div>
       </div>
       <div className="sticky bottom-0  w-[100%] flex justify-end animate-bounce p-4 ">

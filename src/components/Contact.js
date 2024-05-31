@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
       
     <div className='xl:w-[50%] 2xl:w-[50%] sm:w-[100%] justify-center items-center sm:flex-none  flex'>
        
-    <div className='  rounded-xl  border border-black xl:p-10  mt-8 shadow-xl'>
+    <div className='  rounded-xl  border border-black xl:p-10   shadow-xl'>
     <form className="2xl:w-[60vh] xl:w-[80vh] mx-auto sm:w-[50vh] p-4" onSubmit={handleSubmit}> 
   <label className="block mb-2 text-xl font-medium ">Your Name</label>
   <input value={formData.name}
@@ -78,7 +78,8 @@ const handleSubmit = async (e) => {
    <p> Nariman Point, Mumbai 400021 India</p>
     <p>022-40570360</p>
     <p>info@sspl.co</p>
-
+    <p className='mt-4'>CIN NO – U51219MH1974PTC017916</p>
+    <p>IEC NO – 0388053186</p>
     <div className='xl:w-[80vh] 2xl:w-[100vh] sm:w-auto  mt-10 flex'>
                 <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d483090.85185613966!2d72.823173!3d18.924874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e944dac3d7%3A0x61c1f7b11b32e334!2sMaker%20Chambers%203!5e0!3m2!1sen!2sus!4v1716837749064!5m2!1sen!2sus" width="700" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

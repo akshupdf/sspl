@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import bg from "../images/gd2.jpg"
 import ps from "../images/ps.jpg"
+import isotank from "../images/isotank.png"
+import flexi from "../images/flexi.jpg"
 import History from './History';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -51,12 +53,12 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     </div>
     </div>
     
-    <h1 className='w-[100%] text-center  text-4xl p-4 mt-10'> HISTORY</h1>
+    <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white mb-10'> HISTORY</h1>
     <div className="min-h-screen  flex items-center justify-center ">
       <History />
     </div>
     <div className="min-h-screen w-full flex flex-col items-center justify-center ">
-    <h1 className='w-[100%]  text-center  text-4xl p-4'> OUR TEAM</h1>
+    <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white '> OUR TEAM</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
       <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
       <img src={ps} alt="" className='object-contain ' />
@@ -82,8 +84,9 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
       </div>
     </div>
     </div>
+    <hr className='border-2 w-[90%] mx-auto'></hr>
     <div className="min-h-screen w-full flex flex-col items-center justify-center">
-    <h1 className='w-[100%]  text-center  text-4xl p-4'> MILESTONES</h1>
+    <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
       <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/chemical.png" alt="" className='object-contain xl:pl-8 xl:pr-8' />
@@ -108,6 +111,24 @@ sets up India’s first private port in Muldwarka, Gujarat, and a cement-receivi
       <p className='mt-4 indent-8'>Since 1970s have been working as established brokers to reputed textile corporations and dealers in domestic as well as overseas
 markets. Exporter of raw cotton for the past 40 years.</p>
       </div>
+    </div>
+    </div>
+    <hr className='border-2 w-[90%] mx-auto'></hr>
+    <div className="min-h-screen w-full ">
+    <h1 className=' border-black border w-[60%] mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white mt-10'> GLIMPSE OF OUR DELIVERY METHODS</h1> 
+    <div className='flex p-10'>
+  
+      <img src={isotank} alt="flexi" className='w-[50%] h-[50%] p-10'/>
+      <div   className='w-[50%] m-auto p-10 text-xl'> 
+      <p> <span className='font-bold'> ISO Tank</span> containers are dedicated on the transport of bulk liquid products and are built under ISO (International Organization for Standardization) standards and designed on a type-of-substance basis, made of stainless steel alloy and surrounded by protective layers</p>
+      </div>
+    </div>
+  
+    <div className='flex p-10'>
+      <div   className='w-[50%] m-auto p-10 text-xl'>
+        <p><span className='font-bold'>  Flexible tanks </span> (also flexi-bags, flexibags and flexi-tanks) are a kind of storage equipment for liquids such as water or oil. Compared to steel tanks, flexible tanks have many advantages, including lighter weight and being rustproof, foldable, and quicker and easier to set up.</p>
+         </div>
+      <img src={flexi} alt="flexi" className='w-[50%] h-[50%] p-10'/>
     </div>
     </div>
     </div>

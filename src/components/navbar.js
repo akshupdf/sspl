@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../images/logo4.png'
+import certify from '../images/certify.jpg'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -30,6 +31,9 @@ function Navbar() {
         </li>
         <li className='m-2 hover:underline'>
           <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
+        </li>
+        <li>
+          <img src={certify} alt="logo" className='w-20 h-20 ml-10'/>
         </li>
       </ul>
     </div>

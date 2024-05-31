@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function Product() {
   return (
     <div className="h-auto bg-gray-100 w-[100%]">
-    <h1 className='w-[100%] text-center  text-4xl p-4'> PRODUCTS</h1>
+    <h1 className='w-[100%] text-center  2xl:text-6xl backdrop-blur-sm pt-2 sm:text-4xl '> PRODUCTS</h1>
     <div className="max-w-7xl mx-auto   flex flex-col justify-center ">
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={a} alt="Guar Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-8" />
