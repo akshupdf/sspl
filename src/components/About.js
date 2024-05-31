@@ -116,19 +116,19 @@ markets. Exporter of raw cotton for the past 40 years.</p>
     <hr className='border-2 w-[90%] mx-auto'></hr>
     <div className="min-h-screen w-full ">
     <h1 className=' border-black border w-[60%] mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white mt-10'> GLIMPSE OF OUR DELIVERY METHODS</h1> 
-    <div className='flex p-10'>
+    <div className='flex sm:flex-col lg:flex-row p-10'>
   
-      <img src={isotank} alt="flexi" className='w-[50%] h-[50%] p-10'/>
-      <div   className='w-[50%] m-auto p-10 text-xl'> 
+      <img src={isotank} alt="flexi" className='lg:w-[50%] lg:h-[50%] lg:p-10'/>
+      <div   className='lg:w-[50%] m-auto lg:p-10 text-xl'> 
       <p> <span className='font-bold'> ISO Tank</span> containers are dedicated on the transport of bulk liquid products and are built under ISO (International Organization for Standardization) standards and designed on a type-of-substance basis, made of stainless steel alloy and surrounded by protective layers</p>
       </div>
     </div>
   
-    <div className='flex p-10'>
-      <div   className='w-[50%] m-auto p-10 text-xl'>
+    <div className='flex sm:flex-col lg:flex-row p-10'>
+      <div   className='lg:w-[50%] m-auto lg:p-10 text-xl'>
         <p><span className='font-bold'>  Flexible tanks </span> (also flexi-bags, flexibags and flexi-tanks) are a kind of storage equipment for liquids such as water or oil. Compared to steel tanks, flexible tanks have many advantages, including lighter weight and being rustproof, foldable, and quicker and easier to set up.</p>
          </div>
-      <img src={flexi} alt="flexi" className='w-[50%] h-[50%] p-10'/>
+      <img src={flexi} alt="flexi" className='lg:w-[50%] lg:h-[50%] lg:p-10'/>
     </div>
     </div>
     </div>
