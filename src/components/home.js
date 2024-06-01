@@ -10,7 +10,7 @@ import {
   Navigation,
   Autoplay,
 } from "swiper/modules";
-import rib from "../images/rib2.png";
+import rib from "../images/rib4.png";
 import cc from "../images/pp.png";
 import a from "../images/2.jpg";
 import b from "../images/2.png";
@@ -41,10 +41,10 @@ function Home() {
     
       <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  "  >
         {/* <div className='w-full h-full absolute bg-[#000000cc]'></div> */}
-        <div className="lg:w-[50%] mt-20 text-center " data-aos="fade-left" data-aos-duration="3000">
-          <img src={logo} alt="" className="w-[70%] mx-auto" />
-          <p className="lg:text-5xl ">
-            Nurturing Nature,<br></br> Delivering Quality Worldwide
+        <div className="lg:w-[50%] lg:mt-20 sm:mt-6 text-center " data-aos="fade-left" data-aos-duration="3000">
+          <img src={logo} alt="" className=" mx-auto" />
+          <p className="lg:text-4xl ">
+            Nurturing Nature, <br></br>Delivering Quality Worldwide
           </p>
         </div>
        
@@ -86,11 +86,15 @@ function Home() {
       </div>
 
       <div className=" pt-10 w-[100%] text-center items-center " data-aos="slide-up" data-aos-duration="3000">
-        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>OUR PRODUCTS</h1>
+        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>OUR PRODUCTS</h1>
         <Swiper
           grabCursor={true}
           centeredSlides={true}
           loop={true}
+          autoplay={ {
+            delay: 2000,
+            reverseDirection : true
+          }}
           slidesPerView="4"
           spaceBetween="1"
           pagination={{ el: ".swiper-pagination", clickable: true }}
@@ -118,7 +122,7 @@ function Home() {
       slidesPerView: 4,  
     },}}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-          className="lg:h-[35rem] text-xl mx-auto w-[100%] flex justify-center"
+          className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
         >
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
             <img src={b} alt="" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
@@ -159,7 +163,7 @@ function Home() {
       </div>
 
       <div className=' justify-center pt-10 items-center text-center h-[30rem] '>
-      <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
+      <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
          {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
           <div className='flex w-[100%] lg:flex-row justify-center sm:flex-col lg:p-10 sm:pt-80 overflow-auto sm:h-60 lg:h-auto '>
           <img src={f} alt="" className="m-4" />
@@ -169,7 +173,7 @@ function Home() {
           </div>
       </div>
       <div className="w-[100%] lg:h-[50vh]  text-black " data-aos="zoom-in" data-aos-duration="3000">
-      <h1 className="m-auto  p-6 lg:text-5xl sm:text-2xl font-bold text-center bg-contain bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>REVIEWS</h1>
+      <h1 className="m-auto  p-6 lg:text-5xl sm:text-2xl font-bold text-center lg:w-[40%] bg-center bg-no-repeat text-white bg-cover " style={{backgroundImage : `url(${rib})`}}>REVIEWS</h1>
         <div className='lg:flex w-[100%] justify-center  items-center mt-10'>
         <div className=" lg:w-[30%]  ">
           <div className="w-[50vh]  p-4 mx-auto mt-10 rounded-xl text-center shadow-2xl   cursor-pointer flex flex-col items-center">

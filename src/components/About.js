@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import bg from "../images/gd2.jpg"
 import ps from "../images/ps.jpg"
-import isotank from "../images/isotank.png"
+import isotank from "../images/iso.jpg"
 import flexi from "../images/flexi.jpg"
 import History from './History';
 import AOS from 'aos';
@@ -58,7 +58,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
       <History />
     </div>
     <div className="min-h-screen w-full flex flex-col items-center justify-center ">
-    <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white '> OUR TEAM</h1>
+    <h1 className=' border-black border mx-auto rounded-xl text-center mt-10 text-4xl p-4 bg-[#003662] text-white '> OUR TEAM</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
       <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
       <img src={ps} alt="" className='object-contain ' />
@@ -86,7 +86,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     </div>
     <hr className='border-2 w-[90%] mx-auto'></hr>
     <div className="min-h-screen w-full flex flex-col items-center justify-center">
-    <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
+    <h1 className=' border-black border mx-auto rounded-xl text-center mt-10  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
       <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/chemical.png" alt="" className='object-contain xl:pl-8 xl:pr-8' />
