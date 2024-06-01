@@ -10,7 +10,7 @@ import {
   Navigation,
   Autoplay,
 } from "swiper/modules";
-import rib from "../images/rib4.png";
+import rib from "../images/rib2.png";
 import cc from "../images/pp.png";
 import a from "../images/2.jpg";
 import b from "../images/2.png";
@@ -165,11 +165,11 @@ function Home() {
       <div className=' justify-center pt-10 items-center text-center h-[30rem] '>
       <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
          {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
-          <div className='flex w-[100%] lg:flex-row justify-center sm:flex-col lg:p-10 sm:pt-80 overflow-auto sm:h-60 lg:h-auto '>
-          <img src={f} alt="" className="m-4" />
-          <img src={g} alt="" className="m-4" />
-          <img src={h} alt="" className="m-4" />
-          <img src={i} alt="" className="m-4" />
+          <div className='flex flex-wrap justify-center lg:p-10'>
+          <img src={f} alt="" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={g} alt="" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={h} alt="" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={i} alt="" className="m-4 sm:w-32 lg:w-auto" />
           </div>
       </div>
       <div className="w-[100%] lg:h-[50vh]  text-black " data-aos="zoom-in" data-aos-duration="3000">

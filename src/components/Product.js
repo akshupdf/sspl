@@ -14,7 +14,7 @@ function Product() {
     <div className="max-w-7xl mx-auto   flex flex-col justify-center ">
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
         <img src={a} alt="Guar Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-8" />
-        <div className='m-4'>
+        <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Guar Seeds</h2>
         <p className="text-gray-700 mb-4 text-xl">
           The guar or cluster bean is an annual legume and the source of guar gum. It is also known as gavar, guwar or guvar bean. This legume is a valuable plant in a crop rotation cycle, as it lives in symbiosis with nitrogen-fixing bacteria. Agriculturists in semi-arid regions of Rajasthan follow crop-rotation and use guar to.

@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../images/sc2.png"
+
 
 function History() {
   return (
