@@ -85,8 +85,8 @@ function Home() {
         </div>
       </div>
 
-      <div className=" pt-10 w-[100%] text-center items-center " data-aos="slide-up" data-aos-duration="3000">
-        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>OUR PRODUCTS</h1>
+      <div className="  w-[100%] text-center items-center " >
+        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  " >OUR PRODUCTS</h1>
         <Swiper
           grabCursor={true}
           centeredSlides={true}
@@ -124,23 +124,23 @@ function Home() {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
         >
-          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
+          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={b} alt="" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
+          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={c} alt="" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds</p>
                     </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant">
+          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={d} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds Oil</p>
           </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={e} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Legumes</p>
           </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant">
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
