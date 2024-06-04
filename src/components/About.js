@@ -3,6 +3,7 @@ import bg from "../images/gd2.jpg"
 import ps from "../images/ps.jpg"
 import isotank from "../images/iso.jpg"
 import flexi from "../images/flexi.jpg"
+import flexi1 from "../images/flexi1.jpg"
 import History from './History';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -125,10 +126,14 @@ markets. Exporter of raw cotton for the past 40 years.</p>
     </div>
   
     <div className='flex sm:flex-col lg:flex-row p-10'>
-      <div   className='lg:w-[50%] m-auto lg:p-10 text-xl'>
+      <div   className='lg:w-[40%] m-auto lg:p-10 text-xl'>
         <p><span className='font-bold'>  Flexible tanks </span> (also flexi-bags, flexibags and flexi-tanks) are a kind of storage equipment for liquids such as water or oil. Compared to steel tanks, flexible tanks have many advantages, including lighter weight and being rustproof, foldable, and quicker and easier to set up.</p>
          </div>
-      <img src={flexi} alt="flexi" className='lg:w-[50%] lg:h-[50%] lg:p-10'/>
+         <div className='flex sm:flex-col lg:flex-row lg:w-[60%]'>
+         <img src={flexi} alt="flexi" className='lg:w-[40%]  '/>
+      <img src={flexi1} alt="flexi" className='lg:w-[60%]  lg:p-10'/>
+         </div>
+      
     </div>
     </div>
     </div>
