@@ -22,6 +22,7 @@ import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
 import logo from "../images/logo3.png";
+import certi from "../images/certificate.jpg";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
@@ -112,14 +113,21 @@ function Home() {
             dynamicBullets: false,
           }}
           breakpoints={{
+            320: {
+              slidesPerView: 2,  
+              spaceBetween: 20
+            },
     640: {
       slidesPerView: 2,  
+      spaceBetween: 30
     },
     768: {
       slidesPerView: 3, 
+      spaceBetween: 20
     },
     1024: {
       slidesPerView: 4,  
+      spaceBetween: 20
     },}}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
@@ -140,8 +148,8 @@ function Home() {
             <img src={e} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Legumes</p>
           </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
+            <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[32vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
         </Swiper>
@@ -162,7 +170,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className=' justify-center pt-10 items-center text-center h-[30rem] '>
+      <div className=' justify-center pt-10 items-center text-center h-[32rem] '>
       <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
          {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
           <div className='flex flex-wrap justify-center lg:p-10'>
@@ -172,7 +180,12 @@ function Home() {
   <img src={i} alt="" className="m-4 sm:w-32 lg:w-auto" />
           </div>
       </div>
-      <div className="w-[100%] lg:h-[50vh]  text-black " data-aos="zoom-in" data-aos-duration="3000">
+    
+      <div className=' justify-center  items-center text-center  '>
+      <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>CERTIFICATE</h1>
+      <img src={certi} alt="certi" className="m-4  lg:w-auto mx-auto object-contain p-6 shadow-xl" />
+    </div>
+      <div className="w-[100%] lg:h-[50vh] mt-10  text-black " data-aos="zoom-in" data-aos-duration="3000">
       <h1 className="m-auto  p-6 lg:text-5xl sm:text-2xl font-bold text-center lg:w-[40%] bg-center bg-no-repeat text-white bg-cover " style={{backgroundImage : `url(${rib})`}}>REVIEWS</h1>
         <div className='lg:flex w-[100%] justify-center  items-center mt-10'>
         <div className=" lg:w-[30%]  ">
