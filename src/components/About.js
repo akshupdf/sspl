@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import bg from "../images/gd2.jpg"
 import ps from "../images/ps.jpg"
+import at from "../images/at.jpg"
 import isotank from "../images/iso.jpg"
 import flexi from "../images/flexi.jpg"
 import flexi1 from "../images/flexi1.jpg"
@@ -74,7 +75,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/IMG-20180813-WA0042-768x512-1.jpg" alt="" className='object-contain'  />
       <h1 className='text-xl font-bold mt-4'>Mr. Janardhan Sekhsaria </h1>
       <p className='mt-2 underline'>Management</p>
-      <p className='mt-4 indent-8'>A seasoned financial services executive with extensive experience in finance, accounting, taxation and law Mr. Janardhan Sekhsaria graduated with a B.Com from Sydenham College.   His shrewd financial acumen has been instrumental in providing SSPL with strategic financial guidance and developing all the necessary policies and procedures to ensure sound financial management and control of the businesses.</p>
+      <p className='mt-4 indent-8'>A seasoned financial executive with extensive experience in finance, accounting, taxation and law Mr. Janardhan Sekhsaria graduated with a B.Com from Sydenham College.   His shrewd financial acumen has been instrumental in providing SSPL with strategic financial guidance and developing all the necessary policies and procedures to ensure sound financial management and control of the businesses.</p>
       </div>
       <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/IMG-20180813-WA0042-768x512_2.jpg" alt="" className='object-contain'  />
@@ -89,28 +90,34 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     <div className="min-h-screen w-full flex flex-col items-center justify-center">
     <h1 className=' border-black border mx-auto rounded-xl text-center mt-10  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4 h-[75vh]'>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/chemical.png" alt="" className='object-contain xl:pl-8 xl:pr-8' />
-      <h1 className='text-xl font-bold mt-8'>Pharmaceutical </h1>
+      <h1 className='text-xl font-bold lg:mt-8 sm:mt-0'>Pharmaceutical </h1>
       
-      <p className='mt-8 indent-8'>
+      <p className='lg:mt-8 sm:mt-2 indent-8'>
       1979 Set up Sekhsaria Chemicals Pvt. Ltd. wholly owned subsidiary to provide process research and undertake manufacturing
 USFDA approved of active contract pharmaceutical ingredients (API) and related intermediaries.      </p>
       
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
+      <div className='m-2 w-[100%] border border-black rounded-lg shadow-xl p-2 h-[75vh]'>
       <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/gujarat-ambuja-cement-ltd-ambujanagar-junagadh-cement-manufacturers-fnujlbn.jpg" alt="" className='object-contain p-4'  />
-      <h1 className='text-xl font-bold mt-2'>Cement </h1>
+      <h1 className='text-xl font-bold '>Cement </h1>
      
-      <p className='mt-2 indent-8'>1986: Gujarat Ambuja Cement Ltd. (GACL) starts with a 0.7-million-ton plant capacity, using jute bags for cement. 1993: GACL
+      <p className=' indent-8 lg:mt-4 sm:mt-0'>1986: Gujarat Ambuja Cement Ltd.starts with a 0.7-million-ton plant capacity, using jute bags for cement. 1993: GACL
 sets up India’s first private port in Muldwarka, Gujarat, and a cement-receiving terminal in Ulve, Mumbai, for export and import.</p>
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4'>
-      <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/cott-1.jpg" alt="" className='object-contain'  />
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4 h-[75vh]'>
+      <img src="https://www.ssplindia.net/wp-content/uploads/2019/05/cott-1.jpg" alt="" className='object-contain p-4'  />
       <h1 className='text-xl font-bold mt-4'>Cotton </h1>
       
-      <p className='mt-4 indent-8'>Since 1970s have been working as established brokers to reputed textile corporations and dealers in domestic as well as overseas
+      <p className=' indent-8 mt-4'>Since 1970s have been working as established brokers to reputed textile corporations and dealers in domestic as well as overseas
 markets. Exporter of raw cotton for the past 40 years.</p>
+      </div>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-2 h-[75vh]'>
+      <img src={at} alt="" className='object-contain mx-auto h-[36vh]'  />
+      <h1 className='text-xl font-bold '>Agri-trading</h1>
+      
+      <p className=' indent-8'>SSPL has successfully established itself as a global exporter of high-quality agricultural products, including castor seeds, castor seed oil, cashew kernels, guar seeds, and various legumes. Through a robust supply chain and a focus on sustainability.</p>
       </div>
     </div>
     </div>
