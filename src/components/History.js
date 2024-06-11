@@ -73,7 +73,7 @@ Acquires a 51% stake in DLF Cement, becoming the #4 cement company in India.</p>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
                 {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">GACL</h3> */}
-                <p class="text-white leading-tight text-xl bg-[#BA741F] backdrop-blur-sm p-4 rounded-lg">In 2019, SSPL became a leading global exporter of high-quality agricultural products, including castor seeds, castor seed oil, cashew kernels, guar seeds, and various legumes. With a robust supply chain and a focus on sustainability, SSPL is recognized as a trusted partner in the global agri-trading sector.</p>
+                <p class="text-white leading-tight text-xl bg-[#BA741F] backdrop-blur-sm p-4 rounded-lg">In 2019, SSPL became a leading global exporter of high-quality agricultural products, including castor seeds, castor seed oil, cashew kernels, guar seeds, and various legumes. With a robust supply chain and a focus on sustainability, SSPL is recognized as a trusted partner in the global agri-trading sector. We have been buying castor seeds directly from farmers in the Gujarat state to support our castor oil production, ensuring quality and fostering strong relationships with local agricultural communities.</p>
             </div>
         </div>
     </div>

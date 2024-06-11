@@ -10,8 +10,15 @@ function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // https://translate.google.com/gen204?sl=en&tl=it&textlen=446&ttt=329&ttl=746&sr=1&nca=te_time&client=te&logld=vTE_20240605 
+
+
   return (
     <div className='lg:flex backdrop-blur-2xl bg w-[100%] font-serif bg-[#003662] text-white '>
+      <div>
+    
+      </div>
     <div className='flex justify-between items-center w-full lg:w-[50%] pt-2'>
     <Link to="/" > <img src={logo} alt="Logo" className='w-40 h-15' /></Link>
       <div className='lg:hidden' onClick={toggleMenu}>

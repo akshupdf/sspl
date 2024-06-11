@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -12,11 +12,11 @@ import {
 } from "swiper/modules";
 import rib from "../images/rib2.png";
 import cc from "../images/pp.png";
-import a from "../images/2.jpg";
-import b from "../images/2.png";
-import c from "../images/3.png";
-import d from "../images/4.png";
-import e from "../images/5.png";
+// import a from "../images/2.jpg";
+// import b from "../images/2.png";
+// import c from "../images/3.png";
+// import d from "../images/4.png";
+// import e from "../images/5.png";
 import f from "../images/BB.jpg";
 import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
@@ -28,6 +28,9 @@ import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import Translate from './Translate';
+// import { TranslationContext } from './TranslationProvider';
+
 
 function Home() {
 
@@ -35,6 +38,11 @@ function Home() {
     AOS.init();
   }, [])
 
+  // const { translatedContent } = useContext(TranslationContext);
+
+    // const translateText = (key, defaultText) => {
+    //     return translatedContent[key] || defaultText;
+    // };
 
 
   return (
@@ -43,14 +51,14 @@ function Home() {
       <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  "  >
         {/* <div className='w-full h-full absolute bg-[#000000cc]'></div> */}
         <div className="lg:w-[50%] lg:mt-20 sm:mt-6 text-center " data-aos="fade-left" data-aos-duration="3000">
-          <img src={logo} alt="" className=" mx-auto" />
+          <img src={logo} alt="none" className=" mx-auto" />
           <p className="lg:text-4xl ">
-            Nurturing Nature, <br></br>Delivering Quality Worldwide
+          Nurturing Nature, <br></br>Delivering Quality Worldwide
           </p>
         </div>
        
         <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
-          <img src={cc} alt="" className="w-[120vh]" />
+          <img src={cc} alt="none" className="w-[120vh]" />
         </div> 
        
       </div>
@@ -87,7 +95,7 @@ function Home() {
       </div>
 
       <div className="  w-[100%] text-center items-center " >
-        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold  " >OUR PRODUCTS</h1>
+        <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold">OUR PRODUCTS</h1>
         <Swiper
           grabCursor={true}
           centeredSlides={true}
@@ -99,7 +107,6 @@ function Home() {
           slidesPerView="4"
           spaceBetween="1"
           pagination={{ el: ".swiper-pagination", clickable: true }}
-          showsPagination={true}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -133,25 +140,26 @@ function Home() {
           className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
         >
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={b} alt="" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
+            <img src="https://drive.google.com/thumbnail?id=1Fexqc5yOKKR8Bk-Kv_9N7OJqc2hjX2aG&sz=w1000" alt="none" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={c} alt="" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
+            <img src="https://drive.google.com/thumbnail?id=1oew6iUKr5O4PKjAHH9rQoTBa2lnWnUs3&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={d} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <img src="https://drive.google.com/thumbnail?id=1qVgCkLZTrEP3JAh_ene76W28R1BfaXL0&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds Oil</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={e} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <img src="https://drive.google.com/thumbnail?id=1Xw48CeC-N03zcKhn-pC2G_6RcQawjqv4&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Legumes</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
-            <img src={a} alt="" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
+            <img src="https://drive.google.com/thumbnail?id=1V_wN-95wKWklnriMGOtzT6egBzyV3uyW&sz=w1000" alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
+          
         </Swiper>
       </div>
 
@@ -174,10 +182,10 @@ function Home() {
       <h1 className="m-auto  p-6  lg:text-5xl sm:text-2xl font-bold lg:w-[42%] text-white bg-cover bg-center bg-no-repeat " style={{backgroundImage : `url(${rib})`}}>MEMBERSHIPS</h1>
          {/* <h1 className='text-4xl font-bold pt-4'>CERTIFICATIONS</h1> */}
           <div className='flex flex-wrap justify-center lg:p-10'>
-          <img src={f} alt="" className="m-4 sm:w-32 lg:w-auto" />
-  <img src={g} alt="" className="m-4 sm:w-32 lg:w-auto" />
-  <img src={h} alt="" className="m-4 sm:w-32 lg:w-auto" />
-  <img src={i} alt="" className="m-4 sm:w-32 lg:w-auto" />
+          <img src={f} alt="none" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={g} alt="none" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={h} alt="none" className="m-4 sm:w-32 lg:w-auto" />
+  <img src={i} alt="none" className="m-4 sm:w-32 lg:w-auto" />
           </div>
       </div>
     

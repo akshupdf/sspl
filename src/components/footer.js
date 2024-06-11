@@ -8,10 +8,10 @@ function Footer() {
     <div className='w-[100%] h-auto lg:flex border border-black bottom-0 font-weight-800  justify-center mt-10 text-xl bg-[#003662] text-gray-300  font-serif'>
    <div className=' lg:w-[30%] '>
     <div className=' mx-auto rounded-xl pt-2   cursor-pointer sm:pl-4  xl:pl-0 2xl:pl-0'>
-    <img src={logo}  alt="" className='w-80 h-38' />
+    <img src={logo}  alt="none" className='w-80 h-38' />
   
     <p>94, 9th floor, Maker Chamber III, Nariman Point, Mumbai, Maharashtra :- 400021</p>
-    <h1 className='font-bold'>Hours :-  Monday — Friday :- 9am-5pm</h1>
+    <h1 className='font-bold'>Hours :-  Monday — Friday :- 9am-6pm</h1>
     
     
    
@@ -37,7 +37,7 @@ function Footer() {
     <div className='flex mt-20 sm:pl-4  xl:pl-0 2xl:pl-0'>
     <div >
     <h1 className='font-bold'>Contact :-</h1>
-    <p>022-40570360</p>
+    <p>+912240570360</p>
     <p>info@sspl.co</p>
     </div>
     <div className='flex cursor-pointer m-10 '>
