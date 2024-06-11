@@ -90,30 +90,30 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     <div className="min-h-screen w-full flex flex-col items-center justify-center">
     <h1 className=' border-black border mx-auto rounded-xl text-center mt-10  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4 '>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-4  2xl:p-5 '>
       <img src="https://drive.google.com/thumbnail?id=1FegIRdBkBElGHTVpX9WW1FDI3Zo9cCiW&sz=w1000" alt="none" className='object-contain xl:pl-8 xl:pr-8' />
       <h1 className='text-xl font-bold lg:mt-4 sm:mt-0'>Pharmaceutical </h1>
       
-      <p className='lg:mt-6 sm:mt-2 indent-8 mb-4'>
+      <p className='lg:mt-6 sm:mt-2 indent-8 xl:mb-4 2xl:mb-0'>
       1979 Set up Sekhsaria Chemicals Pvt. Ltd. wholly owned subsidiary to provide process research and undertake manufacturing
 USFDA approved of active contract pharmaceutical ingredients (API) and related intermediaries.      </p>
       
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-2 '>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-6  2xl:p-5'>
       <img src="https://drive.google.com/thumbnail?id=1ZChzsOE3HCztYMeWDniK9iouml2vb7dH&sz=w1000" alt="none" className='object-contain p-4 pt-0'  />
       <h1 className='text-xl font-bold '>Cement </h1>
      
       <p className=' indent-8 lg:mt-0 sm:mt-0'>1986: Gujarat Ambuja Cement Ltd.starts with a 0.7-million-ton plant capacity, using jute bags for cement. 1993: GACL
 sets up India’s first private port in Muldwarka, Gujarat, and a cement-receiving terminal in Ulve, Mumbai, for export and import.</p>
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4 '>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl 2xl:pt-8 xl:pt-10 xl:pb-10 2xl:pb-4 p-4 '>
       <img src="https://drive.google.com/thumbnail?id=18wcTVtvoC_kc7dMYfk5iUaJZjdGcjfxZ&sz=w1000" alt="none" className='object-contain p-4 pt-0'  />
       <h1 className='text-xl font-bold mt-2'>Cotton </h1>
       
       <p className=' indent-8 mt-2'>Since 1970s have been working as established brokers to reputed textile corporations and dealers in domestic as well as overseas
 markets. Exporter of raw cotton for the past 40 years.</p>
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-2 '>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl p-4 '>
       <img src={at} alt="none" className='object-contain mx-auto  p-4'  />
       <h1 className='text-xl font-bold mt-2'>Agri-trading</h1>
       
