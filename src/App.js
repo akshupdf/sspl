@@ -8,11 +8,11 @@ import Footer from './components/footer';
 import Contact from './components/Contact';
 import Product from './components/Product';
 import ScrollToTop from './components/ScrolltoTop';
-// import TranslationProvider from './components/TranslationProvider';
+
 function App() {
   return (
     <div className="App">
-  
+
       <BrowserRouter>
       <ScrollToTop />
       <Navbar />

@@ -11,7 +11,7 @@ import {
   Autoplay,
 } from "swiper/modules";
 import rib from "../images/rib2.png";
-import cc from "../images/pp.png";
+// import cc from "../images/pp.png";
 // import a from "../images/2.jpg";
 // import b from "../images/2.png";
 // import c from "../images/3.png";
@@ -21,15 +21,15 @@ import f from "../images/BB.jpg";
 import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
-import logo from "../images/logo3.png";
+// import logo from "../images/logo3.png";
 import certi from "../images/certificate.jpg";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Translate from './Translate';
-// import { TranslationContext } from './TranslationProvider';
+import Translate from './Translate';
+
 
 
 function Home() {
@@ -38,27 +38,24 @@ function Home() {
     AOS.init();
   }, [])
 
-  // const { translatedContent } = useContext(TranslationContext);
-
-    // const translateText = (key, defaultText) => {
-    //     return translatedContent[key] || defaultText;
-    // };
 
 
   return (
     <div className="w-[100%] h-[100%]  ">
-    
+      
+     <Translate />
       <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  "  >
         {/* <div className='w-full h-full absolute bg-[#000000cc]'></div> */}
         <div className="lg:w-[50%] lg:mt-20 sm:mt-6 text-center " data-aos="fade-left" data-aos-duration="3000">
-          <img src={logo} alt="none" className=" mx-auto" />
+          <img src="https://drive.google.com/thumbnail?id=1da3XB-Tyt04sMRiqfN84bILMO_buEyiB&sz=w1000" alt="none" className=" mx-auto" />
           <p className="lg:text-4xl ">
+       
           Nurturing Nature, <br></br>Delivering Quality Worldwide
           </p>
         </div>
        
         <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
-          <img src={cc} alt="none" className="w-[120vh]" />
+          <img src="https://drive.google.com/thumbnail?id=11Y8Luc0MiewNXaHbHBf_DzyeeZMQDsgJ&sz=w1000" alt="none" className="w-[120vh]" />
         </div> 
        
       </div>

@@ -1,10 +1,10 @@
 import React from 'react'
 
-import a from "../images/11.png";
-import b from "../images/22.png";
-import c from "../images/33.png";
-import d from "../images/44.png";
-import e from "../images/55.png";
+// import a from "../images/11.png";
+// import b from "../images/22.png";
+// import c from "../images/33.png";
+// import d from "../images/44.png";
+// import e from "../images/55.png";
 import { Link } from 'react-router-dom';
 
 function Product() {
@@ -13,7 +13,7 @@ function Product() {
     <h1 className='w-[100%] text-center  2xl:text-6xl backdrop-blur-sm pt-2 sm:text-4xl '> PRODUCTS</h1>
     <div className="max-w-7xl mx-auto   flex flex-col justify-center ">
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
-        <img src={a} alt="Guar Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-8" />
+        <img src="https://drive.google.com/thumbnail?id=1FY5zhy8Ke1kez7Mc5VdfZlKb97UyQSCd&sz=w1000" alt="Guar Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-8" />
         <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Guar Seeds</h2>
         <p className="text-gray-700 mb-4 text-xl">
@@ -25,7 +25,7 @@ function Product() {
       </div>
 
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
-        <img src={b} alt="Cashew Kernels" className=" 2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-10" />
+        <img src="https://drive.google.com/thumbnail?id=1BOC5N7c664Ua2CRI7p-JnB8C9i_CB-VW&sz=w1000" alt="Cashew Kernels" className=" 2xl:w-[60vh] xl:w-[100vh] object-cover rounded-lg p-10" />
         <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Cashew Kernels</h2>
         <p className="text-gray-700 mb-4 text-xl ">
@@ -36,7 +36,7 @@ function Product() {
       </div>
 
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
-        <img src={c} alt="Castor Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover  p-10 " />
+        <img src="https://drive.google.com/thumbnail?id=10XR2iutrLAvkzBtYd3GQ6y2_E0ASxV41&sz=w1000" alt="Castor Seeds" className="2xl:w-[60vh] xl:w-[100vh] object-cover  p-10 " />
          <div className='m-4 flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Castor Seeds</h2>
         <p className="text-gray-700 mb-4 text-xl">
@@ -47,7 +47,7 @@ function Product() {
       </div>
 
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
-        <img src={d} alt="Castor Seeds Oil" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
+        <img src="https://drive.google.com/thumbnail?id=1OZ2t-3gt4IHb3u1DzbUcEuM4y-dYk1ZY&sz=w1000" alt="Castor Seeds Oil" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
           <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Castor Seeds Oil</h2>
         <p className="text-gray-700 mb-4 text-xl">
@@ -58,7 +58,7 @@ function Product() {
       </div>
 
       <div className="w-full xl:flex-row 2xl:flex sm:flex-col flex justify-center m-4 shadow-xl">
-        <img src={e} alt="Legumes" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
+        <img src="https://drive.google.com/thumbnail?id=1d8HVC0NEOBX4282fpnufeOoZteL5BnVe&sz=w1000" alt="Legumes" className="2xl:w-[60vh] xl:w-[100vh] object-cover p-10" />
         <div className='m-4  flex flex-col justify-center'>
         <h2 className="text-2xl font-bold mb-2">Legumes</h2>
         <p className="text-gray-700 mb-4 text-xl">

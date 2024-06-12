@@ -1,67 +1,21 @@
-import React, { useContext } from 'react';
-import { TranslationContext } from './TranslationProvider';
+import React from 'react';
+
 
 const Translate = () => {
-  const { setTranslatedContent, language, setLanguage } = useContext(TranslationContext);
 
-  const capturePageText = () => {
-    const body = document.body;
-    const textNodes = [];
-    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, null, false);
-
-    let node;
-    while ((node = walker.nextNode())) {
-      if (node.parentNode.tagName !== 'SCRIPT' && node.parentNode.tagName !== 'STYLE') {
-        textNodes.push(node);
-      }
-    }
-    return textNodes;
-  };
-
-  const replacePageText = (textNodes, translatedText) => {
-    textNodes.forEach((node, index) => {
-      node.nodeValue = translatedText[index];
-    });
-  };
-
-  const translatePageContent = async (targetLanguage) => {
-    const textNodes = capturePageText();
-    const textContent = textNodes.map(node => node.nodeValue);
-
-    try {
-      const response = await fetch("https://libretranslate.com/translate", {
-        method: "POST",
-        body: JSON.stringify({
-          q: textContent,
-          source: "auto",
-          target: targetLanguage,
-          format: "text",
-          api_key: ""
-        }),
-        headers: { "Content-Type": "application/json" }
-      });
-
-      const translations = await response.json();
-      const translatedText = translations.map(t => t.translatedText);
-
-      replacePageText(textNodes, translatedText);
-      setLanguage(targetLanguage);
-    } catch (error) {
-      console.error('Error translating text:', error);
-    }
-  };
-
-  const handleLanguageChange = (e) => {
-    translatePageContent(e.target.value);
-  };
 
   return (
-    <select value={language} onChange={handleLanguageChange}>
-      <option value="en">English</option>
-      <option value="es">Spanish</option>
-      <option value="fr">French</option>
-    
-    </select>
+    <div className='flex justify-end w-full text-black mt-2 '>
+    <select  onChange={(e) => window.location.href = e.target.value} className='border border-black p-2 rounded-lg cursor-pointer '>
+    <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp">English</option>
+  <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp">Spanish</option>
+  <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=en-US&_x_tr_pto=wapp">French</option>
+  <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=en-US&_x_tr_pto=wapp">German</option>
+  <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=th&_x_tr_hl=en-US&_x_tr_pto=wapp">Thai</option>
+  <option value="https://ssspl-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=ms&_x_tr_hl=en-US&_x_tr_pto=wapp">Malay</option>
+
+</select>
+</div>
   );
 };
 
