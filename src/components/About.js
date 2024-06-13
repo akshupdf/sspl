@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import bg from "../images/gd2.jpg"
+import bg from "../images/gd2.jpg"
 // import ps from "../images/ps.jpg"
 import at from "../images/at.jpg"
 import isotank from "../images/iso.jpg"
@@ -26,7 +26,7 @@ function About() {
     <h1 className='w-[100%] text-center  2xl:text-6xl backdrop-blur-sm pt-2 sm:text-4xl '> ABOUT US</h1>
     <div className='flex 2xl:flex-row xl:flex-row sm:flex-col'>
     <div className='w-[50%] sm:w-[100%] text-center '>
-    <img src="https://drive.google.com/thumbnail?id=1nXyp3aMp9eZtCGh78lDuL6KiEap9ul2k&sz=w1000" alt="none" className='p-8'/> 
+    <img src={bg} alt="none" className='p-8'/> 
     </div>
     <div className='w-[50%] sm:w-[100%] sm:text-sm xl:text-xl 2xl:text-xl p-4 backdrop-blur-sm text-left'>
    

@@ -11,17 +11,19 @@ import {
   Autoplay,
 } from "swiper/modules";
 import rib from "../images/rib2.png";
-// import cc from "../images/pp.png";
-// import a from "../images/2.jpg";
-// import b from "../images/2.png";
-// import c from "../images/3.png";
-// import d from "../images/4.png";
-// import e from "../images/5.png";
+import cc from "../images/pp.png";
+import a from "../images/2.jpg";
+import b from "../images/22.png";
+import c from "../images/33.png";
+import d from "../images/44.png";
+import e from "../images/5.png";
+import j from "../images/cp1.png";
+import k from "../images/pps1.png";
 import f from "../images/BB.jpg";
 import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
-// import logo from "../images/logo3.png";
+import logo from "../images/logo3.png";
 import certi from "../images/certificate.jpg";
 import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
@@ -47,7 +49,7 @@ function Home() {
       <div className="lg:w-[100%] font-bold lg:h-screen lg:flex justify-center  "  >
         {/* <div className='w-full h-full absolute bg-[#000000cc]'></div> */}
         <div className="lg:w-[50%] lg:mt-20 sm:mt-6 text-center " data-aos="fade-left" data-aos-duration="3000">
-          <img src="https://drive.google.com/thumbnail?id=1da3XB-Tyt04sMRiqfN84bILMO_buEyiB&sz=w1000" alt="none" className=" mx-auto" />
+          <img src={logo} alt="none" className=" mx-auto" />
           <p className="lg:text-4xl ">
        
           Nurturing Nature, <br></br>Delivering Quality Worldwide
@@ -55,7 +57,7 @@ function Home() {
         </div>
        
         <div className="lg:w-[60%] " data-aos="fade-right" data-aos-duration="3000"  >
-          <img src="https://drive.google.com/thumbnail?id=11Y8Luc0MiewNXaHbHBf_DzyeeZMQDsgJ&sz=w1000" alt="none" className="w-[120vh]" />
+          <img src={cc} alt="none" className="w-[120vh]" />
         </div> 
        
       </div>
@@ -76,8 +78,8 @@ function Home() {
               Satyanarayan Sehksaria Private Limited
             </h1>
             <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8">
-              Premium Traders of - Castor Seeds - Castor Seeds Oil -
-              Cashew Kernels - Grams - Gaur Seeds
+              Premium Traders of - Castor Seeds - Castor Oil -
+              Cashew Kernels - Pulses - Gaur Seeds - Chickpeas - Pigeon Peas
             </p>
             <div className="w-48 mx-auto mt-8">
               <Link
@@ -137,24 +139,32 @@ function Home() {
           className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
         >
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src="https://drive.google.com/thumbnail?id=1Fexqc5yOKKR8Bk-Kv_9N7OJqc2hjX2aG&sz=w1000" alt="none" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
+            <img src={b} alt="none" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src="https://drive.google.com/thumbnail?id=1oew6iUKr5O4PKjAHH9rQoTBa2lnWnUs3&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
+            <img src={c} alt="none" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src="https://drive.google.com/thumbnail?id=1qVgCkLZTrEP3JAh_ene76W28R1BfaXL0&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds Oil</p>
+            <img src={d} alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Oil</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src="https://drive.google.com/thumbnail?id=1Xw48CeC-N03zcKhn-pC2G_6RcQawjqv4&sz=w1000" alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Legumes</p>
+            <img src={e} alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Pulses</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
-            <img src="https://drive.google.com/thumbnail?id=1V_wN-95wKWklnriMGOtzT6egBzyV3uyW&sz=w1000" alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
+            <img src={a} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
+          </SwiperSlide>
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
+            <img src={j} alt="None" className="pt-10 lg:h-[40vh] lg:w-[50vh] sm:h-[20vh] mx-auto" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Chick Peas</p>
+          </SwiperSlide>
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
+            <img src={k} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Pigeon Peas</p>
           </SwiperSlide>
           
         </Swiper>
