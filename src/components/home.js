@@ -163,7 +163,7 @@ function Home() {
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Chick Peas</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
-            <img src={k} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
+            <img src={k} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto " />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Pigeon Peas</p>
           </SwiperSlide>
           
