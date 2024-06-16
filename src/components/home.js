@@ -12,7 +12,7 @@ import {
 } from "swiper/modules";
 import rib from "../images/rib2.png";
 import cc from "../images/pp.png";
-import a from "../images/2.jpg";
+import a from "../images/11.png";
 import b from "../images/22.png";
 import c from "../images/33.png";
 import d from "../images/44.png";
@@ -155,11 +155,11 @@ function Home() {
             <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Pulses</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
-            <img src={a} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto sm:h-[20vh]" />
+            <img src={a} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto " />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
-            <img src={j} alt="None" className="pt-10 lg:h-[40vh] lg:w-[50vh] sm:h-[20vh] mx-auto" />
+            <img src={j} alt="None" className=" lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Chick Peas</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
