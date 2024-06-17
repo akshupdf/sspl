@@ -11,7 +11,7 @@ import {
   Autoplay,
 } from "swiper/modules";
 import rib from "../images/rib2.png";
-import cc from "../images/pp.png";
+import cc from "../images/pp4.png";
 import a from "../images/11.png";
 import b from "../images/22.png";
 import c from "../images/33.png";
