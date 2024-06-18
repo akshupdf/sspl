@@ -10,8 +10,8 @@ function Footer() {
     <div className=' mx-auto rounded-xl pt-2   cursor-pointer sm:pl-4  xl:pl-0 2xl:pl-0'>
     <img src={logo}  alt="none" className='w-80 h-38' />
   
-    <p>94, 9th floor, Maker Chamber III, Nariman Point, Mumbai, Maharashtra :- 400021</p>
-    <h1 className='font-bold'>Hours :-  Monday — Friday :- 9am-6pm</h1>
+    <p className='pl-2'>94, 9th floor, Maker Chamber III, Nariman Point, Mumbai, Maharashtra :- 400021</p>
+    <h1 className='font-bold pl-2'>Hours :-  Monday — Friday :- 9am-6pm</h1>
     
     
    
@@ -20,7 +20,7 @@ function Footer() {
   
    
     <div className=' lg:w-[30%]  '>
-    <div className=' m-auto sm:pl-4 pt-20 xl:pl-20 2xl:pl-20  text-xl rounded-xl   cursor-pointer'>
+    <div className=' m-auto sm:pl-6 pt-20 xl:pl-20 2xl:pl-20  text-xl rounded-xl   cursor-pointer'>
     <ul>
       <li className='hover:underline'><Link to="/">Home</Link></li>
       <li className='hover:underline'><Link to="/about">About</Link></li>
@@ -34,7 +34,7 @@ function Footer() {
     </div>
     <div className=' lg:w-[30%]  '>
 
-    <div className='flex mt-20 sm:pl-4  xl:pl-0 2xl:pl-0'>
+    <div className='flex mt-20 sm:pl-6  xl:pl-0 2xl:pl-0'>
     <div >
     <h1 className='font-bold'>Contact :-</h1>
     <p>+912240570360</p>

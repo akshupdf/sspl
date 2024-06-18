@@ -30,8 +30,7 @@ function About() {
     </div>
     <div className='w-[50%] sm:w-[100%] sm:text-sm xl:text-xl 2xl:text-xl p-4 backdrop-blur-sm text-left'>
    
-    <p className='indent-8'> <span className='font-bold'>SSPL</span> is focused on trading and supplying of a wide range of agricultural commodities like Castor Seed, Guar Seed, Castor Oil (FSG
-Grade), Gaur Gum (Guar Split), Chana both in India and Internationally.
+    <p className='indent-8'> <span className='font-bold'>SSPL</span> is focused on Exporting and supplying of a wide range of agricultural commodities like Castor Seed, Guar Seed, Castor Oil (FSG Grade), Cashew Kernels , Pulses , Chickpeas , Pigeon Peas both in India and Internationally.
 Capitalizing on Indias diverse geography, SSPL delivers superior agro products worldwide.
 </p> <p className='indent-8'> As a specialized trading organization,
 we build long-term customer relationships and manage all aspects of bulk agro-commodity trade, from storage to direct market

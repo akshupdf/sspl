@@ -25,7 +25,7 @@ import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
 import logo from "../images/logo3.png";
 import certi from "../images/certificate.jpg";
-import bg2 from "../images/bg2.mp4";
+// import bg2 from "../images/bg2.mp4";
 import { Link } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import AOS from 'aos';
@@ -62,31 +62,35 @@ function Home() {
        
       </div>
 
-      <div className="lg:h-screen  w-full flex justify-center  items-center bg-white ">
-        <video
-          className="absolute w-full lg:w-4/5 h-full lg:h-4/5 rounded-2xl brightness-50 object-contain"
+      <div className="lg:h-80 sm:h-[60vh] w-[90%] mx-auto rounded-xl flex justify-center bg-fixed items-center bg-no-repeat bg-cover mb-20 bg-[url(https://www.india-briefing.com/news/wp-content/uploads/2019/07/India-Briefing-India%E2%80%99s-Export-and-Import-Trends-2018-19.jpg)] ">
+        {/* <video
+          className="absolute lg:h-80 sm:h-[60vh] w-[90%] rounded-2xl object-cover"
           autoPlay
           muted
           loop
         >
           <source src={bg2} type="video/mp4" />
-        </video>
+        </video> */}
+        <div className='w-[90%] opacity-60 absolute bg-[#000004] lg:h-80 rounded-xl sm:h-[60vh] '></div>
         <div className="relative flex flex-col justify-center items-center sm:h-[14rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
-          <div className="backdrop-blur-sm sm:p-0 p-4 lg:p-8 text-center">
+          <div className=" sm:p-0 p-4 lg:p-8 text-center ">
             <h1 className="text-3xl sm:text-sm lg:text-6xl xl:text-5xl mb-4">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
-            <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8">
-              Premium Traders of - Castor Seeds - Castor Oil -
+            {/* <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8">
+              Premium Exporters of - Castor Seeds - Castor Oil -
               Cashew Kernels - Pulses - Gaur Seeds - Chickpeas - Pigeon Peas
+            </p> */}
+            <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8 text-left p-4">
+            SSPL is focused on Exporting and supplying of a wide range of agricultural commodities like Castor Seed, Guar Seed, Castor Oil (FSG Grade), Cashew Kernels , Pulses , Chickpeas , Pigeon Peas both in India and Internationally. Capitalizing on Indias diverse geography, SSPL delivers superior agro products worldwide.
             </p>
             <div className="w-48 mx-auto mt-8">
               <Link
                 to="/about"
                 class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-black bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
               >
-                About Us
+                Know more
               </Link>
             </div>
           </div>
@@ -170,7 +174,7 @@ function Home() {
         </Swiper>
       </div>
 
-      <div className="w-[100%] mx-auto items-center justify-center flex mb-10">
+      <div className="w-[100%] mx-auto items-center justify-center flex mb-10 mt-10">
         <Link
           to="/products"
           class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-xl group"
@@ -246,7 +250,7 @@ function Home() {
         </div>
         </div>
       </div>
-      <div className="sticky bottom-0  w-[100%] flex justify-end animate-bounce p-4 ">
+      <div className="fixed bottom-0 right-0 m-4 animate-bounce">
         <Link to="https://wa.link/u3mfnm" target="_blank" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
