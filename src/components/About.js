@@ -3,7 +3,7 @@ import bg from "../images/gd2.jpg"
 // import ps from "../images/ps.jpg"
 import at from "../images/at.jpg"
 import isotank from "../images/iso.jpg"
-import flexi from "../images/flexi.jpg"
+// import flexi from "../images/flexi.jpg"
 import flexi1 from "../images/flexi1.jpg"
 import History from './History';
 import AOS from 'aos';
@@ -55,7 +55,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     </div>
     
     <h1 className=' border-black border mx-auto rounded-xl text-center  text-4xl p-4 bg-[#003662] text-white mb-10'> HISTORY</h1>
-    <div className="min-h-screen  flex items-center justify-center ">
+    <div className="  flex items-center justify-center ">
       <History />
     </div>
     <div className="min-h-screen w-full flex flex-col items-center justify-center ">
@@ -89,7 +89,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
     <div className="min-h-screen w-full flex flex-col items-center justify-center">
     <h1 className=' border-black border mx-auto rounded-xl text-center mt-10  text-4xl p-4 bg-[#003662] text-white '> MILESTONES</h1>
     <div className=' w-[95%] flex flex-shrink 2xl:flex-row xl:flex-row 2xl:flex-shrink justify-center items-center  sm:flex-col'>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-4  2xl:p-5 '>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-4  2xl:p-5 sm:p-4 '>
       <img src="https://drive.google.com/thumbnail?id=1FegIRdBkBElGHTVpX9WW1FDI3Zo9cCiW&sz=w1000" alt="none" className='object-contain xl:pl-8 xl:pr-8' />
       <h1 className='text-xl font-bold lg:mt-4 sm:mt-0'>Pharmaceutical </h1>
       
@@ -98,7 +98,7 @@ portfolio, leveraging our trading expertise and strategic alliances.</p>
 USFDA approved of active contract pharmaceutical ingredients (API) and related intermediaries.      </p>
       
       </div>
-      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-6  2xl:p-5'>
+      <div className='m-4 w-[100%] border border-black rounded-lg shadow-xl xl:p-6  2xl:p-5 sm:p-4 '>
       <img src="https://drive.google.com/thumbnail?id=1ZChzsOE3HCztYMeWDniK9iouml2vb7dH&sz=w1000" alt="none" className='object-contain p-4 pt-0'  />
       <h1 className='text-xl font-bold '>Cement </h1>
      
@@ -132,12 +132,12 @@ markets. Exporter of raw cotton for the past 40 years.</p>
     </div>
   
     <div className='flex sm:flex-col lg:flex-row p-10'>
-      <div   className='lg:w-[40%] m-auto lg:p-10 text-xl'>
+      <div   className='lg:w-[50%] m-auto lg:p-10 text-xl'>
         <p><span className='font-bold'>  Flexible tanks </span> (also flexi-bags, flexibags and flexi-tanks) are a kind of storage equipment for liquids such as water or oil. Compared to steel tanks, flexible tanks have many advantages, including lighter weight and being rustproof, foldable, and quicker and easier to set up.</p>
          </div>
-         <div className='flex sm:flex-col lg:flex-row lg:w-[60%]'>
-         <img src={flexi} alt="flexi" className='lg:w-[40%]  '/>
-      <img src={flexi1} alt="flexi" className='lg:w-[60%]  lg:p-10'/>
+         <div className='flex sm:flex-col lg:flex-row lg:w-[50%]'>
+         {/* <img src={flexi} alt="flexi" className='lg:w-[40%]  '/> */}
+      <img src={flexi1} alt="flexi" className='object-cover  lg:p-10'/>
          </div>
       
     </div>

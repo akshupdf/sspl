@@ -12,17 +12,18 @@ import {
 } from "swiper/modules";
 import rib from "../images/rib2.png";
 import cc from "../images/pp4.png";
-import a from "../images/11.png";
+import a from "../images/gaurseeds.jpg";
 import b from "../images/22.png";
 import c from "../images/33.png";
 import d from "../images/44.png";
-import e from "../images/5.png";
-import j from "../images/cp1.png";
+import e from "../images/66.png";
+import j from "../images/cp2.png";
 import k from "../images/pps1.png";
 import f from "../images/BB.jpg";
 import g from "../images/NB.jpg";
 import h from "../images/DD.jpg";
 import i from "../images/AA.jpg";
+import gg from "../images/gg.png";
 import logo from "../images/logo3.png";
 import certi from "../images/certificate.jpg";
 // import bg2 from "../images/bg2.mp4";
@@ -71,10 +72,10 @@ function Home() {
         >
           <source src={bg2} type="video/mp4" />
         </video> */}
-        <div className='w-[90%] opacity-60 absolute bg-[#000004] lg:h-80 rounded-xl sm:h-[60vh] '></div>
+        <div className='w-[90%] opacity-60 absolute bg-[#000004] lg:h-80 rounded-xl sm:h-[60vh]  '></div>
         <div className="relative flex flex-col justify-center items-center sm:h-[14rem] text-white font-sans italic font-semibold lg:w-4/5 lg:h-full">
-          <div className=" sm:p-0 p-4 lg:p-8 text-center ">
-            <h1 className="text-3xl sm:text-sm lg:text-6xl xl:text-5xl mb-4">
+          <div className=" sm:p-0 p-4 lg:p-8 text-center">
+            <h1 className="text-3xl sm:text-sm lg:text-6xl xl:text-5xl mb-4 ">
               {" "}
               Satyanarayan Sehksaria Private Limited
             </h1>
@@ -82,7 +83,7 @@ function Home() {
               Premium Exporters of - Castor Seeds - Castor Oil -
               Cashew Kernels - Pulses - Gaur Seeds - Chickpeas - Pigeon Peas
             </p> */}
-            <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8 text-left p-4">
+            <p className="text-lg sm:text-sm lg:text-2xl xl:text-lg mb-8 text-left p-4 ">
             SSPL is focused on Exporting and supplying of a wide range of agricultural commodities like Castor Seed, Guar Seed, Castor Oil (FSG Grade), Cashew Kernels , Pulses , Chickpeas , Pigeon Peas both in India and Internationally. Capitalizing on Indias diverse geography, SSPL delivers superior agro products worldwide.
             </p>
             <div className="w-48 mx-auto mt-8">
@@ -142,29 +143,36 @@ function Home() {
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
           className="lg:h-[32rem] text-xl mx-auto w-[100%] flex justify-center mt-6"
         >
-          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={b} alt="none" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
-                    </SwiperSlide>
+          
+         
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={c} alt="none" className="lg:h-[40vh] lg:w-[50vh]  mx-auto" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seeds</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Seed</p>
                     </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
             <img src={d} alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Castor Oil</p>
-          </SwiperSlide>
-          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
-            <img src={e} alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Pulses</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
             <img src={a} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto " />
             <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Seeds</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
+            <img src={gg} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto " />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Guar Gum</p>
+          </SwiperSlide>
+          <SwiperSlide className=" w-auto p-4 text-center  items-center rounded-lg m-4 bg-transperant shadow-2xl">
+            <img src={b} alt="none" className="lg:h-80 xl:h-[40vh] mx-auto lg:w-[50vh]" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Cashew Kernels</p>
+                    </SwiperSlide>
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl">
+            <img src={e} alt="none" className="lg:h-[40vh] lg:w-[50vh] mx-auto" />
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl font-bold mt-10 ">Pulses</p>
+          </SwiperSlide>
+          
+          <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
             <img src={j} alt="None" className=" lg:h-[40vh] lg:w-[50vh] mx-auto" />
-            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Chick Peas</p>
+            <p className="sm:text-sm lg:text-4xl xl:text-4xl  font-bold mt-10">Chickpeas</p>
           </SwiperSlide>
           <SwiperSlide className=" w-auto p-4 text-center items-center rounded-lg m-4 bg-transperant shadow-2xl ">
             <img src={k} alt="None" className="lg:h-[40vh] lg:w-[50vh] mx-auto " />
