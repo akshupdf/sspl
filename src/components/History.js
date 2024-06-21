@@ -11,7 +11,7 @@ function History() {
     >
       <div class="container mx-auto px-4 py-8 ">
         <div class="relative wrap overflow-auto ">
-          <div class="border-2-2 absolute border-opacity-60 border-gray-700 h-full border left-1/2  "></div>
+          <div class="lg:flex border-2-2 absolute border-opacity-60 border-gray-700 h-full border left-1/2  sm:hidden"></div>
           <div class="mb-8 lg:flex justify-between items-center w-full right-timeline ">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-gray-200  w-12 h-10 ">
@@ -47,7 +47,7 @@ function History() {
           */}
 
          <div class="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
+            <div class="order-1 w-5/12 "></div>
             <div class="z-20 flex items-center order-1 bg-gray-200 w-12 h-10">
               <h1 class="mx-auto font-semibold text-lg text-blue-800">1979</h1>
             </div>
