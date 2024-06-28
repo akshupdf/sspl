@@ -15,13 +15,13 @@ function History() {
           <div class="mb-8 lg:flex justify-between items-center w-full right-timeline ">
             <div class="order-1 w-5/12"></div>
             <div class="z-20 flex items-center order-1 bg-gray-200  w-12 h-10 ">
-              <h1 class="mx-auto font-semibold text-lg text-blue-800">1974</h1>
+              <h1 class="mx-auto font-semibold text-lg text-blue-800">2008</h1>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
               {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">Gujarat Ambuja Cement Ltd. (GACL)</h3> */}
               <p class=" leading-tight text-xl backdrop-opacity-10 p-4 rounded-lg ">
                 {" "}
-                SATYANARAYAN SEKHSARIA PRIVATE LIMITED was established on 11-11-1974
+                Engaging in the trading of various agricultural commodities taps into the dynamic agribusiness sector, promoting sustainability and ensuring the availability of essential products in different markets. These ventures highlight a commitment to excellence and innovation in both agricultural and industrial domains.
               </p>
             </div>
           </div>
@@ -49,12 +49,13 @@ function History() {
          <div class="mb-8 lg:flex justify-between flex-row-reverse items-center w-full left-timeline">
             <div class="order-1 w-5/12 "></div>
             <div class="z-20 flex items-center order-1 bg-gray-200 w-12 h-10">
-              <h1 class="mx-auto font-semibold text-lg text-blue-800">1979</h1>
+              <h1 class="mx-auto font-semibold text-lg text-blue-800">2019</h1>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
                {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">GACL</h3>  */}
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 rounded-lg">
-                Sekhsaria Chemicals was incorporated in 1979
+               
+Venturing into the export of FSG Castor Oil marks a significant milestone. With its applications ranging from industrial to personal care products, castor oil is a versatile and in-demand commodity. By ensuring the highest standards of quality, this initiative aims to cater to diverse industries worldwide, contributing to the international supply chain of a highly sought-after natural product.
               </p>
             </div>
           </div>
