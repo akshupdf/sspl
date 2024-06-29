@@ -18,7 +18,7 @@ function History() {
               <h1 class="mx-auto font-semibold text-lg text-blue-800">1974</h1>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
-              {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">Gujarat Ambuja Cement Ltd. (GACL)</h3> */}
+              <h3 class="mb-3 font-bold text-gray-800 text-xl">Incorporation of Satyanarayan Sehksaria Private Limited. </h3>
               <p class=" leading-tight text-xl backdrop-opacity-10 p-4 rounded-lg pl-0">
                 {" "}
                 Incorporated in 1974, SSPL boasts a rich legacy backed by its founders' extensive experience spanning over seven decades in the raw-cotton supply business. This wealth of knowledge and expertise has been instrumental in establishing strong and enduring relationships with reputed textile mills. Over the years, SSPL has built a reputation for reliability and quality, consistently providing high-grade raw cotton to meet the stringent demands of the textile industry. 
@@ -52,7 +52,7 @@ function History() {
               <h1 class="mx-auto font-semibold text-lg text-blue-800">1979</h1>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
-               {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">GACL</h3>  */}
+               <h3 class="mb-3 font-bold text-gray-800 text-xl">Sekhsaria Chemicals Pvt. Ltd. was established.</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 rounded-lg pl-0">
                
               In 1979, Sekhsaria Chemicals Pvt. Ltd. was established as a wholly owned subsidiary, marking a strategic expansion into the pharmaceutical sector. This subsidiary focuses on process research and the USFDA-approved contract manufacturing of active pharmaceutical ingredients (API) and related intermediaries. By adhering to stringent regulatory standards, Sekhsaria Chemicals ensures the production of high-quality pharmaceutical components essential for drug development and manufacturing. 
@@ -66,7 +66,7 @@ function History() {
               <h1 class="mx-auto font-semibold text-lg text-blue-800">2006</h1>
             </div>
             <div class="order-1  lg:w-5/12 px-6 py-4">
-               {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">Sekhsaria Chemicals Pvt. Ltd.</h3>  */}
+               <h3 class="mb-3 font-bold text-gray-800 text-xl">The Sekhsaria Family set up NSFO.</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
                 {" "}
                 The Sekhsaria Family set up NSFO in 2006 with an initial focus on
@@ -84,7 +84,7 @@ in key areas.
               <h1 class="mx-auto font-semibold text-lg text-blue-800">2008</h1>
             </div>
             <div class="order-1 lg:w-5/12 px-6 py-4">
-               {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">GACL</h3>  */}
+               <h3 class="mb-3 font-bold text-gray-800 text-xl">Engaging in the trading of various agricultural commodities</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
              In 2008, Engaging in the trading of various agricultural commodities taps into the dynamic agribusiness sector, promoting sustainability and ensuring the availability of essential products in different markets. These ventures highlight a commitment to excellence and innovation in both agricultural and industrial domains.
               </p>
@@ -96,7 +96,7 @@ in key areas.
               <h1 class="mx-auto font-semibold text-lg text-blue-800">2019</h1>
             </div>
             <div class="order-1  lg:w-5/12 px-6 py-4">
-               {/* <h3 class="mb-3 font-bold text-gray-800 text-xl">Sekhsaria Chemicals Pvt. Ltd.</h3>  */}
+               <h3 class="mb-3 font-bold text-gray-800 text-xl">Venturing into the export of FSG Castor Oil.</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
                 {" "}
                 In 2019, Venturing into the export of FSG Castor Oil marks a significant milestone. With its applications ranging from industrial to personal care products, castor oil is a versatile and in-demand commodity. By ensuring the highest standards of quality, this initiative aims to cater to diverse industries worldwide, contributing to the international supply chain of a highly sought-after natural product.
