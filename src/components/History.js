@@ -69,11 +69,7 @@ function History() {
                <h3 class="mb-3 font-bold text-gray-800 text-xl">The Sekhsaria Family set up NSFO.</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
                 {" "}
-                The Sekhsaria Family set up NSFO in 2006 with an initial focus on
-investment in private equity and capital markets. The
-familys approach to investing draws from their strength as
-builder-operator of companies, to form long-term partnerships
-in key areas.
+                Sekhsaria Chemicals Ltd was acquired by Watson Pharmaceuticals Inc, the third-largest pharmaceuticals company in the USA.
               </p>
             </div>
           </div>
