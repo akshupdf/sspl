@@ -66,7 +66,7 @@ function History() {
               <h1 class="mx-auto font-semibold text-lg text-blue-800">2006</h1>
             </div>
             <div class="order-1  lg:w-5/12 px-6 py-4">
-               <h3 class="mb-3 font-bold text-gray-800 text-xl">The Sekhsaria Family set up NSFO.</h3> 
+               <h3 class="mb-3 font-bold text-gray-800 text-xl">Sekhsaria Chemicals Ltd was acquired .</h3> 
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
                 {" "}
                 Sekhsaria Chemicals Ltd was acquired by Watson Pharmaceuticals Inc, the third-largest pharmaceuticals company in the USA.
