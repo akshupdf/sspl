@@ -70,8 +70,7 @@ function History() {
               <p class=" leading-tight text-xl  backdrop-blur-sm p-4 pl-0 rounded-lg">
                 {" "}
                 The Sekhsaria Family set up NSFO in 2006 with an initial focus on
-investment in private equity and capital markets.Today NSFO has
-global operations and an AUM of over a billion USD. The
+investment in private equity and capital markets. The
 familys approach to investing draws from their strength as
 builder-operator of companies, to form long-term partnerships
 in key areas.
